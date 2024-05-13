@@ -261,6 +261,23 @@ body {
   color: rgba(0, 0, 0, 0.25);
   opacity: 0;
 }
+
+.btn--stats:hover {
+  color: goldenrod;
+}
+
+.btn--prefs:hover {
+  color: #777;
+}
+
+.btn--back:hover {
+  color: crimson;
+}
+
+.btn--theme:hover {
+  color: chocolate;
+}
+
 .btn:after {
   position: absolute;
   content: "";
@@ -273,14 +290,17 @@ body {
   border-radius: 100%;
 }
 .btn--bl {
+  cursor: pointer;
   bottom: 0.8em;
   left: 0.8em;
 }
 .btn--br {
+  cursor: pointer;
   bottom: 0.8em;
   right: 0.8em;
 }
 .btn--bc {
+  cursor: pointer;
   bottom: 0.8em;
   left: calc(50% - 0.5em);
 }
